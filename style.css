@@ -3,8 +3,49 @@
 }
 .header_info_w{
     width: 55%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .h-img-size{
-       width: 110%; 
+       width: 100%; 
+}
+.name-font-s{
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.intro-pera{
+    font-size: 22px;
+    font: bold;
+}
+.get-btn{
+    text-decoration: none;
+    background-color: rgb(68, 68, 68);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: .5s;
+}
+.get-btn:hover{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+/*----------------------
+ about
+ ----------------------*/
+.about-me{
+    font-weight: bold;
+    font-size: 22px;
+}
+.about-img{
+    width: 78%;
+}
+.about-me-pera{
+    font-size: 16px;
+}
+.half-width{
+    width: 50%;
+}
+.about-text{
+    margin-right: 5%;
 }
