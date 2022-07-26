@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -17,12 +31,13 @@ body {
 }
 
 .h-img-size {
-    width: 100%;
+    width: 30%;
 }
 
-.header-down{
+.header-down {
     margin-top: 7%;
 }
+
 .name-font-s {
     font-size: 70px;
     font-weight: 700;
@@ -95,7 +110,9 @@ body {
 .header_info_about {
     width: 65%;
 }
-
+/* -------------------
+address
+------------------- */
 .ads-info {
     font-weight: bold;
     font-size: 15px;
@@ -114,4 +131,10 @@ body {
 
 .img-size {
     font-style: 5px !important;
+}
+/* ------------------------- education ---------------------- */
+.study-year{
+    background-color: rgb(212, 212, 212);
+    padding: 2px 13px;
+    border-radius: 20px;
 }
