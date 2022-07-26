@@ -1,23 +1,40 @@
-.header_img_w{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Trispace', sans-serif;
+}
+
+.header_img_w {
     width: 40%;
 }
-.header_info_w{
+
+.header_info_w {
     width: 55%;
     margin-left: 5%;
 }
-.h-img-size{
-       width: 100%; 
+
+.h-img-size {
+    width: 100%;
 }
-.name-font-s{
+
+.header-down{
+    margin-top: 7%;
+}
+.name-font-s {
     font-size: 70px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.intro-pera{
+
+.intro-pera {
     font-size: 22px;
     font: bold;
 }
-.get-btn{
+
+.get-btn {
     text-decoration: none;
     background-color: rgb(68, 68, 68);
     padding: 10px 20px;
@@ -26,26 +43,75 @@
     color: white;
     transition: .5s;
 }
-.get-btn:hover{
+
+.get-btn:hover {
     background-color: rgb(24, 24, 24);
     color: white;
 }
+
 /*----------------------
  about
  ----------------------*/
-.about-me{
+.title-heading {
     font-weight: bold;
     font-size: 22px;
 }
-.about-img{
-    width: 78%;
+
+.about-img {
+    width: 40%;
 }
-.about-me-pera{
-    font-size: 16px;
+
+.about-me-pera {
+    font-size: 13px;
+    color: gray;
+
 }
-.half-width{
+
+.info-size {
+    font-style: 13px !important;
+}
+
+.width-pera {
+    width: 45%;
+}
+
+.width-addres-pera {
     width: 50%;
+    margin-left: 5%;
 }
-.about-text{
+
+.about-margin-right {
     margin-right: 5%;
+}
+
+.header_img_about {
+    width: 30%;
+}
+
+.img-position {
+    position: fixed;
+}
+
+.header_info_about {
+    width: 65%;
+}
+
+.ads-info {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.gray-color {
+    color: gray;
+}
+
+.left-side-margin {
+    margin-left: 35%;
+}
+
+.img-size {
+    font-style: 5px !important;
 }
