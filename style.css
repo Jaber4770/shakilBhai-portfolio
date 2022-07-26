@@ -138,3 +138,49 @@ address
     padding: 2px 13px;
     border-radius: 20px;
 }
+
+/* 
+-----------------------
+Licenses & certifications
+-----------------------
+*/
+.partner-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.partner-box div{
+    border: .75px solid rgb(65, 65, 65);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------- footer
+----------------- */
+.side-margin{
+
+}
