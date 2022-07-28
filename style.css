@@ -76,6 +76,11 @@ body {
     width: 27%;
 }
 
+.img-position {
+    position: fixed;
+}
+
+
 .about-me-pera {
     font-size: 13px;
     color: gray;
@@ -103,13 +108,10 @@ body {
     width: 30%;
 }
 
-.img-position {
-    position: fixed;
-}
-
 .header_info_about {
     width: 65%;
 }
+
 /* -------------------
 address
 ------------------- */
@@ -132,8 +134,9 @@ address
 .img-size {
     font-style: 5px !important;
 }
+
 /* ------------------------- education ---------------------- */
-.study-year{
+.study-year {
     background-color: rgb(212, 212, 212);
     padding: 2px 13px;
     border-radius: 20px;
@@ -144,11 +147,12 @@ address
 Licenses & certifications
 -----------------------
 */
-.partner-box{
+.partner-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.partner-box div{
+
+.partner-box div {
     border: .75px solid rgb(65, 65, 65);
     text-align: center;
 }
@@ -181,6 +185,25 @@ Licenses & certifications
 
 /*------------------- footer
 ----------------- */
-.footer-height{
-    height: 500px;
+.copyright {
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+.footer-icon a {
+    text-decoration: none;
+    padding: 15px 0 10px 15px;
+    font-size: 20px;
+}
+
+.yt-color {
+    color: red;
+}
+
+.ln-color {
+    color: rgb(54, 54, 199);
+}
+.zIndex{
+    z-index: 1;
 }
