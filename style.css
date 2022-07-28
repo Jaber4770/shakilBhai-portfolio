@@ -35,7 +35,7 @@ body {
 }
 
 .header-down {
-    margin-top: 7%;
+    margin-top: 4%;
 }
 
 .name-font-s {
@@ -72,8 +72,8 @@ body {
     font-size: 22px;
 }
 
-.about-img {
-    width: 40%;
+.about-img-w {
+    width: 27%;
 }
 
 .about-me-pera {
@@ -181,6 +181,6 @@ Licenses & certifications
 
 /*------------------- footer
 ----------------- */
-.side-margin{
-
+.footer-height{
+    height: 500px;
 }
