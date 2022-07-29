@@ -27,15 +27,17 @@ body {
 
 .header_info_w {
     width: 55%;
-    margin-left: 5%;
+    margin-left: 35%;
 }
 
 .h-img-size {
-    width: 30%;
+    width: 25%;
 }
-
+.land-img-margin{
+    margin-bottom: 40%;
+}
 .header-down {
-    margin-top: 4%;
+    margin-top: 5%;
 }
 
 .name-font-s {
@@ -202,8 +204,8 @@ Licenses & certifications
 }
 
 .ln-color {
-    color: rgb(54, 54, 199);
+    color: rgb(28, 28, 150);
 }
-.zIndex{
-    z-index: 1;
+.footer-bg{
+    background-color: rgb(241, 0, 0);
 }
