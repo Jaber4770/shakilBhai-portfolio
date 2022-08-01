@@ -168,32 +168,6 @@ Licenses & certifications
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------------- footer
 ----------------- */
 .copyright {
@@ -211,6 +185,10 @@ Licenses & certifications
     color: rgb(65, 65, 65);
 }
 
+.jack-f-s {
+    font-style: 8px !important;
+    display: inline-block;
+}
 
 /* portfolio */
 .make-grid {
@@ -229,6 +207,7 @@ Licenses & certifications
     transition: .3s;
     color: white;
 }
+
 .card a:hover {
     background-color: rgb(58, 58, 58);
     transition: .3s;
@@ -246,4 +225,45 @@ Licenses & certifications
 
 .same-height {
     height: 320px;
+}
+
+/* contact */
+.contact-intro-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.contact-intro-grid div {
+    height: 200px;
+}
+
+.contact-same-width {
+    width: 40%;
+}
+
+.contact-margin-right {
+    margin-right: 5%;
+}
+
+.custom-card {
+    border: 1px solid rgb(224, 219, 219);
+    width: 100%;
+    border-radius: 5px;
+    height: 450px;
+}
+
+.chat-img {
+    width: 90%;
+    margin-top: 40px;
+}
+
+.ask-me {
+    text-decoration: none;
+    color: gray;
+}
+
+.ask-margin {
+    margin-top: 10px;
+    display: inline-block;
 }
