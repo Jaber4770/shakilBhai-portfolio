@@ -263,7 +263,15 @@ Licenses & certifications
     color: gray;
 }
 
-.ask-margin {
-    margin-top: 10px;
-    display: inline-block;
+.header-element {
+    width: 64%;
+    margin-left: 31%;
+}
+
+/* 
+article....article...article
+ */
+
+.accordion-item {
+    width: 100% !important;
 }
