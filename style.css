@@ -306,15 +306,69 @@ article....article...article
 }
 
 /* media query----media query----media query-media query----media query----media query-----media query----media query */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 
-    /* header */
+    /* home */
+
+    .img-position {
+        position: inherit;
+        display: block;
+    }
+
+    .h-img-size {
+        width: 100%;
+        display: block;
+    }
+
+    .header_img_w {
+        width: 100%;
+        display: block;
+    }
+
+    .header_info_w {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .phone-view {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .land-img-margin {
+        margin-bottom: 0%;
+    }
+
+    .name-font-s {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .media-style {
+        text-align: center;
+    }
+
+    .media-style-btn {
+        padding-bottom: 20%;
+        text-align: center;
+    }
+
+    /* about */
+
+    .about-img-w {
+        width: 100%;
+    }
+
+    .header_img_about {
+        width: 100%;
+    }
+
+    .about-margin-right {
+        margin-right: 0%;
+    }
 
 
-    /* main */
-
-
-    /* footer */
+    /* all footer */
     .copyright {
         font-size: 10px !important;
     }
