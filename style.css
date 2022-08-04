@@ -396,11 +396,18 @@ article....article...article
     }
 
 
-    .media-style-fs{
+    .media-style-fs {
         font-size: 14px;
     }
 
+    .media-q-contact {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .contact-same-width {
+        width: 100% !important;
+    }
 
 
     /* all footer */
