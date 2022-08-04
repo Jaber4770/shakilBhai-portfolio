@@ -355,17 +355,43 @@ article....article...article
 
     /* about */
 
+    .header-down{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-position {
+        position: inherit;
+        display: block;
+    }
+
     .about-img-w {
         width: 100%;
+        display: block;
     }
 
     .header_img_about {
         width: 100%;
+        display: block;
+        margin-top: 10%;
     }
 
     .about-margin-right {
         margin-right: 0%;
     }
+    .header_info_about {
+        width: 100%;
+    }
+
+.left-side-margin{
+    margin-left: 0%;
+}
+.partner-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
 
 
     /* all footer */
@@ -373,3 +399,8 @@ article....article...article
         font-size: 10px !important;
     }
 }
+
+@media only screen and (min-width:451px) and (max-width: 768px) {}
+
+
+@media only screen and (min-width:769px) {}
