@@ -154,12 +154,13 @@ Licenses & certifications
 */
 .partner-box {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .partner-box div {
-    border: .75px solid rgb(65, 65, 65);
+    border: .75px solid rgb(164, 164, 164);
     text-align: center;
+    padding: 20px 0;
 }
 
 /*------------------- footer
@@ -177,11 +178,6 @@ Licenses & certifications
 
 .footer-icon a i {
     color: rgb(65, 65, 65);
-}
-
-.jack-f-s {
-    font-style: 8px !important;
-    display: inline-block;
 }
 
 /* portfolio */
@@ -355,10 +351,11 @@ article....article...article
 
     /* about */
 
-    .header-down{
+    .header-down {
         display: flex;
         flex-direction: column;
     }
+
     .img-position {
         position: inherit;
         display: block;
@@ -378,18 +375,30 @@ article....article...article
     .about-margin-right {
         margin-right: 0%;
     }
+
     .header_info_about {
         width: 100%;
     }
 
-.left-side-margin{
-    margin-left: 0%;
-}
-.partner-box {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
+    .left-side-margin {
+        margin-left: 0%;
+    }
 
+    .partner-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-icon a {
+        text-decoration: none;
+        padding: 15px 0 10px 10px;
+        font-size: 15px;
+    }
+
+
+    .media-style-fs{
+        font-size: 14px;
+    }
 
 
 
